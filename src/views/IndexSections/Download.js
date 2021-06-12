@@ -28,31 +28,10 @@ class Download extends React.Component {
         <section className="section section-lg">
           <Container>
             <Row className="row-grid justify-content-center">
-              <Col className="text-center" lg="8">
-                <h2 className="display-3">
-                  Do you love this awesome{" "}
-                  <span className="text-success">
-                    Design System for Bootstrap 4?
-                  </span>
-                </h2>
-                <p className="lead">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can find the
-                  Design System in React. Start a new project or give an old
-                  Bootstrap project a new look!
-                </p>
-                <div className="btn-wrapper">
-                  <Button
-                    className="mb-3 mb-sm-0"
-                    color="primary"
-                    href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                  >
-                    Download React
-                  </Button>
-                </div>
+              <Col>
                 <div className="text-center">
                   <h4 className="display-4 mb-5 mt-5">
-                    Available on these technologies
+                    Working with these technologies
                   </h4>
                   <Row className="justify-content-center">
                     <Col lg="2" xs="4">
@@ -89,22 +68,6 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsr-landing-page"
-                        id="tooltip233150499"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip233150499">
-                        Angular - One framework. Mobile & Desktop
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <a
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                         id="tooltip308866163"
                         target="_blank"
@@ -122,35 +85,34 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        id="tooltip76119384"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip76119384">
-                        Sketch - Digital design toolkit
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://nodejs.org/en/"
                         id="tooltip646643508"
                         target="_blank"
                       >
                         <img
                           alt="..."
                           className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg"
+                          src="https://www.mindrops.com/images/nodejs-image.png"
                         />
                       </a>
                       <UncontrolledTooltip delay={0} target="tooltip646643508">
-                        Adobe Photoshop - Software for digital images
-                        manipulation
+                        Node.js - Server-side JavaScript framework
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <a
+                        href="https://www.mongodb.com/"
+                        id="tooltip646643508"
+                        target="_blank"
+                      >
+                        <img
+                          alt="..."
+                          className="img-fluid"
+                          src="https://s.yimg.com/fz/api/res/1.2/VllWUd99pTcnsZLFkZWXOw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/ce09550a-8473-3f5c-a7da-350b483116dd/t_1024x1024"
+                        />
+                      </a>
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        MongoDB - general purpose, document-based, distributed database built for the cloud era.
                       </UncontrolledTooltip>
                     </Col>
                   </Row>
